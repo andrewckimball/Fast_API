@@ -21,6 +21,3 @@ result = fixPTags()
 
 with open('data_updated.json', 'w', encoding='utf-8') as f:
     json.dump(result, f, ensure_ascii=False, indent=4)
-# x = '</p>, <p><b>Richard Craig Shelby .... </p>, oooooo'
-# new = re.sub(r"(</p>,)", "</p>", x)
-# print(new)
