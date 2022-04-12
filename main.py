@@ -1,11 +1,6 @@
 from fastapi import FastAPI
-import joblib
 from fastapi.middleware.cors import CORSMiddleware    
-import requests
-import bs4
 import json
-import pickle
-import gzip
 import bz2
 import _pickle as cPickle
 
@@ -77,4 +72,5 @@ def returnSenator(senator):
     key = key_list[position]
 
     return data[key]
+
 
