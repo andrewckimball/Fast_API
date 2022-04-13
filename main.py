@@ -12,7 +12,8 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:8080",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://main.d2w10j7wwyg83i.amplifyapp.com"
 ]
 
 app = FastAPI()
