@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 import bz2
 import _pickle as cPickle
+import sklearn
 
 
 ### uvicorn main:app --reload ###
@@ -13,7 +14,7 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
     "http://localhost:3000",
-    "https://main.d2w10j7wwyg83i.amplifyapp.com"
+    "https://main.d2w10j7wwyg83i.amplifyapp.com",
 ]
 
 app = FastAPI()
